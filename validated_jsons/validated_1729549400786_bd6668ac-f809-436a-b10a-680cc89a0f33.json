@@ -1,0 +1,95 @@
+	
+{
+    "PrimaryProductID": {
+      "PrimaryIdentification": {
+        "ProductID": "11523-0007-1",
+        "ProductIDType": "US - NDC541"
+      }
+    },
+    "Product Name": "Claritin",
+    "Product Description": "1 BLISTER PACK in 1 CARTON (11523-0007-1)  / 10 TABLET in 1 BLISTER PACK",
+    "MinimumTemperature": "30.5",
+    "MaximumTemperature": "35.5",
+    "TemperatureUoM": "celsius",
+    "SensitiveToLight": true,
+    "ShelfLife": 3,
+    "ShelfLifeUoM": "year",
+    "AdditionalProductIDs": [
+      {
+        "name": "demo" 
+      },
+      {
+        "name": "demo1"
+      }
+    ],
+    "PharmaInfo": {
+      "PrimaryProductID": "11523-0007-1",
+      "Dosage": "Tablet",
+      "Strength": "10mg",
+      "PackageSize": "10",
+      "Classification": "",
+      "GenericName": "loratadine",
+      "ControlledSubstance": "No",
+      "MAHID": "1234568929292",
+      "MAHIDType": "GLN",
+      "ActiveIngradient": "LORATADINE",
+      "ManufacturedBy": "MAH, CMO"
+    },
+    "TargetMarket": [
+      {
+        "TargetMarketCoutryCode": "US",
+        "TMLanguage": "EN",
+        "LabelImage": "binary",
+        "Type": "OTCDrug",
+        "ManufacturerID": "1234568929292",
+        "ManufacturerIDType": "GLN"
+      },
+      {
+        "TargetMarketCoutryCode": "US",
+        "TMLanguage": "EN",
+        "LabelImage": "binary",
+        "Type": "OTCDrug",
+        "ManufacturerID": "22003389791234",
+        "ManufacturerIDType": "GLN"
+      },
+      {
+        "TargetMarketCoutryCode": "US",
+        "TMLanguage": "EN",
+        "LabelImage": "binary",
+        "Type": "OTCDrug",
+        "ManufacturerID": "8382924",
+        "ManufacturerIDType": "DUNS"
+      }
+    ],
+    "PackagingInfo": [
+      {
+        "packaging code": "12345678901234",
+        "packaging code type": "GTIN14",
+        "UoM": "Each",
+        "ChildItenCount": "",
+        "PackagingRatio": ""
+      },
+      {
+        "packaging code": "12345678901235",
+        "packaging code type": "GTIN14",
+        "UoM": "InnerPack",
+        "ChildItenCount": "10",
+        "PackagingRatio": ""
+      },
+      {
+        "packaging code": "12345678901236",
+        "packaging code type": "GTIN14",
+        "UoM": "Case",
+        "ChildItenCount": "20",
+        "PackagingRatio": ""
+      },
+      {
+        "packaging code": "12345678901237",
+        "packaging code type": "GTIN14",
+        "UoM": "Pallet",
+        "ChildItenCount": "100",
+        "PackagingRatio": ""
+      }
+    ],
+    "Status": ""
+  }

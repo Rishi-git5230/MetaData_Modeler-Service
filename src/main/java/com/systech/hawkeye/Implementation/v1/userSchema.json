@@ -1,0 +1,361 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PrimaryProductID": {
+      "type": "object",
+      "properties": {
+        "PrimaryIdentification": {
+          "type": "object",
+          "properties": {
+            "ProductID": {
+              "type": "string"
+            },
+            "ProductIDType": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ProductID",
+            "ProductIDType"
+          ]
+        }
+      },
+      "required": [
+        "PrimaryIdentification"
+      ]
+    },
+    "Product Name": {
+      "type": "string"
+    },
+    "Product Description": {
+      "type": "string"
+    },
+    "MinimumTemperature": {
+      "type": "string"
+    },
+    "MaximumTemperature": {
+      "type": "string"
+    },
+    "TemperatureUoM": {
+      "type": "string"
+    },
+    "SensitiveToLight": {
+      "type": "boolean"
+    },
+    "ShelfLife": {
+      "type": "integer"
+    },
+    "ShelfLifeUoM": {
+      "type": "string"
+    },
+    "AdditionalProductIDs": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name"
+          ]
+        }
+      ]
+    },
+    "PharmaInfo": {
+      "type": "object",
+      "properties": {
+        "PrimaryProductID": {
+          "type": "string"
+        },
+        "Dosage": {
+          "type": "string"
+        },
+        "Strength": {
+          "type": "string"
+        },
+        "PackageSize": {
+          "type": "string"
+        },
+        "Classification": {
+          "type": "string"
+        },
+        "GenericName": {
+          "type": "string"
+        },
+        "ControlledSubstance": {
+          "type": "string"
+        },
+        "MAHID": {
+          "type": "string"
+        },
+        "MAHIDType": {
+          "type": "string"
+        },
+        "ActiveIngradient": {
+          "type": "string"
+        },
+        "ManufacturedBy": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "PrimaryProductID",
+        "Dosage",
+        "Strength",
+        "PackageSize",
+        "Classification",
+        "GenericName",
+        "ControlledSubstance",
+        "MAHID",
+        "MAHIDType",
+        "ActiveIngradient",
+        "ManufacturedBy"
+      ]
+    },
+    "TargetMarket": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "TargetMarketCoutryCode": {
+              "type": "string"
+            },
+            "TMLanguage": {
+              "type": "string"
+            },
+            "LabelImage": {
+              "type": "string"
+            },
+            "Type": {
+              "type": "string"
+            },
+            "ManufacturerID": {
+              "type": "string"
+            },
+            "ManufacturerIDType": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "TargetMarketCoutryCode",
+            "TMLanguage",
+            "LabelImage",
+            "Type",
+            "ManufacturerID",
+            "ManufacturerIDType"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "TargetMarketCoutryCode": {
+              "type": "string"
+            },
+            "TMLanguage": {
+              "type": "string"
+            },
+            "LabelImage": {
+              "type": "string"
+            },
+            "Type": {
+              "type": "string"
+            },
+            "ManufacturerID": {
+              "type": "string"
+            },
+            "ManufacturerIDType": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "TargetMarketCoutryCode",
+            "TMLanguage",
+            "LabelImage",
+            "Type",
+            "ManufacturerID",
+            "ManufacturerIDType"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "TargetMarketCoutryCode": {
+              "type": "string"
+            },
+            "TMLanguage": {
+              "type": "string"
+            },
+            "LabelImage": {
+              "type": "string"
+            },
+            "Type": {
+              "type": "string"
+            },
+            "ManufacturerID": {
+              "type": "string"
+            },
+            "ManufacturerIDType": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "TargetMarketCoutryCode",
+            "TMLanguage",
+            "LabelImage",
+            "Type",
+            "ManufacturerID",
+            "ManufacturerIDType"
+          ]
+        }
+      ]
+    },
+    "PackagingInfo": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "packaging code": {
+              "type": "string"
+            },
+            "packaging code type": {
+              "type": "string"
+            },
+            "UoM": {
+              "type": "string"
+            },
+            "ChildItenCount": {
+              "type": "string"
+            },
+            "PackagingRatio": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "packaging code",
+            "packaging code type",
+            "UoM",
+            "ChildItenCount",
+            "PackagingRatio"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "packaging code": {
+              "type": "string"
+            },
+            "packaging code type": {
+              "type": "string"
+            },
+            "UoM": {
+              "type": "string"
+            },
+            "ChildItenCount": {
+              "type": "string"
+            },
+            "PackagingRatio": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "packaging code",
+            "packaging code type",
+            "UoM",
+            "ChildItenCount",
+            "PackagingRatio"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "packaging code": {
+              "type": "string"
+            },
+            "packaging code type": {
+              "type": "string"
+            },
+            "UoM": {
+              "type": "string"
+            },
+            "ChildItenCount": {
+              "type": "string"
+            },
+            "PackagingRatio": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "packaging code",
+            "packaging code type",
+            "UoM",
+            "ChildItenCount",
+            "PackagingRatio"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "packaging code": {
+              "type": "string"
+            },
+            "packaging code type": {
+              "type": "string"
+            },
+            "UoM": {
+              "type": "string"
+            },
+            "ChildItenCount": {
+              "type": "string"
+            },
+            "PackagingRatio": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "packaging code",
+            "packaging code type",
+            "UoM",
+            "ChildItenCount",
+            "PackagingRatio"
+          ]
+        }
+      ]
+    },
+    "Status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "PrimaryProductID",
+    "Product Name",
+    "Product Description",
+    "MinimumTemperature",
+    "MaximumTemperature",
+    "TemperatureUoM",
+    "SensitiveToLight",
+    "ShelfLife",
+    "ShelfLifeUoM",
+    "AdditionalProductIDs",
+    "PharmaInfo",
+    "TargetMarket",
+    "PackagingInfo",
+    "Status"
+  ]
+}
